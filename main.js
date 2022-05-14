@@ -1,7 +1,7 @@
 const cardContainer = document.querySelector(".team-container");
-const nameInput = document.getElementById("name");
-const roleInput = document.getElementById("role");
-const imgInput = document.getElementById("image");
+let nameInput = document.getElementById("name");
+let roleInput = document.getElementById("role");
+let imgInput = document.getElementById("image");
 const submitBtn = document.getElementById("addMemberButton");
 
 const cards = [
