@@ -34,6 +34,17 @@ const cards = [
 ];
 
 
-for (let i = 0; i < cards.lenght; i++) {
-    console.log(cards[i]);
+for (let i = 0; i < cards.length; i++) {
+    const card =
+        ` <div class="team-card">
+    <div class="card-image">
+      <img src="${cards[i].img}" />
+    </div>
+    <div class="card-text">
+      <h3>${cards[i].name}</h3>
+      <p>${cards[i].role}</p>
+    </div>
+  </div>`
+
+    cardContainer.innerHTML += card;
 }
